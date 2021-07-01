@@ -4,8 +4,8 @@ body {
 }
 
 h1 {
-	color: white;
-	text-shadow: 2px 2px 4px black;
+	color: red;
+	text-shadow: 2px 2px slategrey;
 }
 
 input {
