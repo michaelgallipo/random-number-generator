@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="./main.js"></script>
+  <link rel="stylesheet" type="text/css" href="./main.css" />
+  <title>Random Number Generator</title>
+</head>
+<body>
+  <header>
+    <h1>Internet Hippo's Random Number Generator</h1>
+  </header>
+
+  <main>
+    <form id="numbers">
+      <input type="number" id="min" placeholder="Enter Minimum Number">
+      <input type="number" id="max" placeholder="Enter Maximum Number">
+      <button id="generate" type="submit" onClick="randomNumber(document.getElementById('min').value,document.getElementById('max').value)">Generate Random Number</button>
+    </form>
+    <div>
+      <h1>Your number is <span class="numberInsert">?</span></h1>
+    </div>
+  </main>
+  
+</body>
+</html>
